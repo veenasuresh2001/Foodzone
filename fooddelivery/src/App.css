@@ -1,0 +1,345 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0a2051;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #76ddfa;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#btn{
+  background-color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 2%;
+  transition: background-color 1s ease-in-out;
+}
+#text{
+  color: red;
+}
+#box{
+  background-color: white;
+}
+#con{
+  width: 700px;
+  height: 468px;
+  background-color: white;
+}
+#txt{
+  width: 300px;
+  margin-left: 28%;
+}
+#img{
+  background-image: url(component/images/regi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  
+}
+#login{
+  width: 300px;
+  margin-left: 50px;
+  border-color: black;
+  transition: background-color 2s ease-in-out;
+}
+#login:focus{
+  border-color :red;
+}
+
+#t{
+  color: white;
+  font-size: 17px;
+  margin-left: 60px;
+
+}
+#image{
+  background-image: url(component/images/food.jpg);
+  width: 100%;
+  height: 100vh;
+}
+#conl{
+box-sizing: 100px;
+box-shadow: 10px 6px 10px 6px;
+width: 400px;
+height: 200px;
+margin-left: 100px;
+margin-top: 20px;
+border-width: 10px;
+}
+
+
+#head{
+  color: white;
+  margin-left: 120px;
+  padding-top: 120px;
+ 
+}
+#btn1{
+  background-color: darkred;
+  border-color: black;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 1s ease-in-out;
+  margin-left: 160px;
+
+}
+#btn1:hover{
+  background-color: green;
+  transform: scale(1.2);
+}
+#btn:hover{
+  background-color: green;
+  transform: scale(1.2);
+}
+#reg{
+  margin-left: 40%;
+}
+
+.nav{
+  background-color: black;
+}
+#color{
+  color: white;
+}
+#navv{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.txt{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: larger;
+  font-weight: bolder;
+  color: bisque;
+}
+#img1{
+  background-image: url(component/images/regi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#con1{
+  width: 700px;
+  height: 600px;
+  background-color: white;
+  padding-top: 10px;
+}
+#indeximage{
+  background-image: url(component/PROJECT/index2.jpg); 
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#indexbg{
+  background-image: url(component/PROJECT/index2.jpg);
+  box-sizing: 100px;
+  box-shadow: 6px 6px 6px 6px;
+width: 400px;
+height: 200px;
+margin-left: 330px;
+margin-top: 100px;
+border-width: 10px;
+
+}
+#column{
+  height: 100vh;
+}
+.my-custom-navbar {
+  background-color:red;
+  /* Add any other styling you want */
+}
+
+#pay{
+  width: 500px;
+  justify-content: center;
+  margin-left: 170px;
+}
+
+#exit{
+  color: black;
+  width: 40px;
+  height: 100px;
+ margin-left: 580px;
+}
+#sliderhead{
+  margin-top: 300px;
+  color: white;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+#sliderhead1{
+  margin-bottom: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 70px;
+}
+#sliderhead2{
+  margin-bottom: 500px;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#adminloginimage{
+  background-image: url(component/PROJECT/image/adminlogin.jpg);
+  width: 100%;
+  height: 100vh;
+}
+#adminlogincon{
+    box-sizing: 100px;
+    box-shadow: 10px 6px 10px 6px;
+    width: 400px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 20px;
+    border-width: 10px;
+}
+#adminhead{
+  color: white;
+  margin-left: 460px;
+  padding-top: 120px;
+ 
+}
+#welcome{
+  background-image: url(component/PROJECT/image/adminhome.webp);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+#custview{
+  color: bisque;
+  font-family: 'Times New Roman', Times, serif;
+}
+#hotellogin{
+  background-image: url(component/PROJECT/image/hotellogin.avif);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#hotelcon{
+    box-sizing: 100px;
+    box-shadow: 10px 6px 10px 6px;
+    width: 400px;
+    height: 200px;
+    margin-left: 420px;
+    margin-top: 10px;
+    border-width: 10px;
+
+}
+#hotelhead{
+  color: white;
+  margin-left: 490px;
+  padding-top: 40px;
+}
+#exit1{
+  color: black;
+  width: 40px;
+  height: 100px;
+ margin-left: 600px;
+}
+#hotelreg{
+  background-image: url(component/PROJECT/image/hotelreg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#hotelreghead{
+  color: white;
+  margin-left: 500px;
+  margin-bottom: 5px;
+}
+#hotelregcon{
+  width: 700px;
+  height: 496px;
+  background-color: white;
+  padding-top: 1px;
+}
+#txtbox{
+width: 300px;
+height: 30px;
+  margin-left: 28%;
+}
+#hotelhome{
+  background-image: url(component/PROJECT/image/hotelhome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#hotelhomehead{
+  color: white;
+}
+#addplantxt{
+  width: 300px;
+  height: 28px;
+  margin-left: 28%;
+}
+#order{
+  color: white;
+}
+#userhome{
+  background-image: url(component/PROJECT/image/home.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+#custhomehead{
+  color: white;
+}
+#feed{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+#feedhead{
+  color: rgb(214, 9, 9);
+}
+#hotel{
+  color: white;
+}
+#reportcolor{
+  color: bisque;
+}
+#report{
+  color: white;
+}
+#custom{
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+}
